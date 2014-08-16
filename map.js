@@ -6,7 +6,7 @@ var map = new mapboxgl.Map({
     zoom: 15,
     style: {
   "version": 4,
-  "sprite": "https://www.mapbox.com/mapbox-gl-styles/sprites/outdoors",
+  "sprite": "sprite",
   "glyphs": "https://mapbox.s3.amazonaws.com/gl-glyphs-256/{fontstack}/{range}.pbf",
   "constants": {
   },
@@ -29,7 +29,7 @@ var map = new mapboxgl.Map({
     "source-layer": "landcover",
     "filter": { "class": "snow" },
     "style": {
-      "fill-image": "url('snow.png')"
+      "fill-image": "snow"
     },
     "type": "fill"
   }, {
@@ -38,7 +38,7 @@ var map = new mapboxgl.Map({
     "source-layer": "landcover",
     "filter": { "class": "crop" },
     "style": {
-      "fill-image": "url('farm.png')"
+      "fill-image": "farm"
     },
     "type": "fill"
   }, {
@@ -47,7 +47,7 @@ var map = new mapboxgl.Map({
     "source-layer": "landcover",
     "filter": { "class": "grass" },
     "style": {
-      "fill-image": "url('grass.png')"
+      "fill-image": "grass"
     },
     "type": "fill"
   }, {
@@ -56,7 +56,7 @@ var map = new mapboxgl.Map({
     "source-layer": "landcover",
     "filter": { "class": "wood" },
     "style": {
-      "fill-image": "url('wood.png')"
+      "fill-image": "wood"
     },
     "type": "fill"
   }, {
@@ -65,7 +65,7 @@ var map = new mapboxgl.Map({
     "source-layer": "landuse",
     "filter": { "class": "wood" },
     "style": {
-      "fill-image": "url('wood.png')"
+      "fill-image": "wood"
     },
     "type": "fill"
   }, {
@@ -73,7 +73,7 @@ var map = new mapboxgl.Map({
     "source": "mapbox",
     "source-layer": "water",
     "style": {
-      "fill-image": "url('water.png')",
+      "fill-image": "water",
       "fill-outline-color": "#a2bdc0"
     },
     "type": "fill"
