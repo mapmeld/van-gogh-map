@@ -1,3 +1,4 @@
+$(document).ready(function(){
 mapboxgl.accessToken = "pk.eyJ1IjoibWFwbWVsZCIsImEiOiI0a1NzYW53In0.2gQTd6k9Ghw8UBK4DsciLA";
 var map = new mapboxgl.Map({
     container: 'map',
@@ -17,4 +18,5 @@ map.addSource('osm', source);
 $("select").on("change", function(e){
   var layer = $(e.target).attr("id");
   map.setStyle({});
+});
 });
