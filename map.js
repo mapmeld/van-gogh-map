@@ -29,54 +29,54 @@ var map = new mapboxgl.Map({
     "source-layer": "landcover",
     "filter": { "class": "snow" },
     "style": {
-      "background-image": "snow.png"
+      "fill-image": "url('snow.png')"
     },
-    "type": "background"
+    "type": "fill"
   }, {
     "id": "landcover_crop",
     "source": "mapbox",
     "source-layer": "landcover",
     "filter": { "class": "crop" },
     "style": {
-      "background-image": "farm.png"
+      "fill-image": "url('farm.png')"
     },
-    "type": "background"
+    "type": "fill"
   }, {
     "id": "landcover_grass",
     "source": "mapbox",
     "source-layer": "landcover",
     "filter": { "class": "grass" },
     "style": {
-      "background-image": "grass.png"
+      "fill-image": "url('grass.png')"
     },
-    "type": "background"
+    "type": "fill"
   }, {
     "id": "landcover_wood",
     "source": "mapbox",
     "source-layer": "landcover",
     "filter": { "class": "wood" },
     "style": {
-      "background-image": "wood.png"
+      "fill-image": "url('wood.png')"
     },
-    "type": "background"
+    "type": "fill"
   }, {
     "id": "landuse_wood",
     "source": "mapbox",
     "source-layer": "landuse",
     "filter": { "class": "wood" },
     "style": {
-      "background-image": "wood.png"
+      "fill-image": "url('wood.png')"
     },
-    "type": "background"
+    "type": "fill"
   }, {
     "id": "water",
     "source": "mapbox",
     "source-layer": "water",
     "style": {
-      "background-image": "water.png",
+      "fill-image": "url('water.png')",
       "fill-outline-color": "#a2bdc0"
     },
-    "type": "background"
+    "type": "fill"
   }]
 },
     hash: true
