@@ -116,6 +116,15 @@ var map = new mapboxgl.Map({
 "type": "fill"
 },
 {
+"id": "building",
+"source": "mapbox",
+"source-layer": "building",
+"style": {
+"fill-image": "urban"
+},
+"type": "fill"
+},
+{
 "id": "commercial",
 "source": "mapbox",
 "source-layer": "landuse",
