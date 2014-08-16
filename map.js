@@ -32,7 +32,8 @@ var map = new mapboxgl.Map({
       "fill-image": "snow"
     },
     "type": "fill"
-  }, {
+  },
+  {
     "id": "landcover_crop",
     "source": "mapbox",
     "source-layer": "landcover",
@@ -77,7 +78,108 @@ var map = new mapboxgl.Map({
       "fill-outline-color": "#a2bdc0"
     },
     "type": "fill"
-  }]
+  },
+{
+"id": "landuse_park",
+"source": "mapbox",
+"source-layer": "landuse",
+"filter": {
+"class": "park"
+},
+"style": {
+"fill-image": "grass"
+},
+"type": "fill"
+},
+{
+"id": "landuse_industrial",
+"source": "mapbox",
+"source-layer": "landuse",
+"filter": {
+"class": "industrial"
+},
+"style": {
+"fill-image": "urban"
+},
+"type": "fill"
+},
+{
+"id": "residential",
+"source": "mapbox",
+"source-layer": "landuse",
+"filter": {
+"class": "residential"
+},
+"style": {
+"fill-image": "urban"
+},
+"type": "fill"
+},
+{
+"id": "commercial",
+"source": "mapbox",
+"source-layer": "landuse",
+"filter": {
+"class": "commercial"
+},
+"style": {
+"fill-image": "urban"
+},
+"type": "fill"
+},
+
+{
+"id": "landuse_grass",
+"source": "mapbox",
+"source-layer": "landuse",
+"filter": {
+"class": "grass"
+},
+"style": {
+"fill-image": "grass"
+},
+"type": "fill"
+},
+{
+"id": "landuse_crop",
+"source": "mapbox",
+"source-layer": "landuse",
+"filter": {
+"class": "crop"
+},
+"style": {
+"fill-image": "farm"
+},
+"type": "fill"
+},
+{
+"id": "landuse_rock",
+"source": "mapbox",
+"source-layer": "landuse",
+"filter": {
+"class": "rock"
+},
+"style": {
+"fill-image": "rock"
+},
+"type": "fill"
+},
+{
+"id": "landuse_snow",
+"source": "mapbox",
+"source-layer": "landuse",
+"filter": {
+"class": "snow"
+},
+"style": {
+"fill-image": "snow"
+},
+"type": "fill"
+}
+  
+  
+  
+  ]
 },
     hash: true
 });

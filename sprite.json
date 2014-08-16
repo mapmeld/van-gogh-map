@@ -1,4 +1,12 @@
 {
+    "urban": {
+      "x": 0,
+      "y": 2303,
+      "width": 444,
+      "height": 195,
+      "pixelRatio": 1,
+      "sdf": false
+    },
     "snow": {
       "x": 0,
       "y": 2100,
