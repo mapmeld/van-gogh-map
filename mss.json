@@ -23,7 +23,7 @@
     "source-layer": "landcover",
     "filter": { "class": "snow" },
     "style": {
-      "background-image": "url('snow.png')"
+      "background-image": "snow.png"
     },
     "type": "background"
   }, {
@@ -32,7 +32,7 @@
     "source-layer": "landcover",
     "filter": { "class": "crop" },
     "style": {
-      "background-image": "url('farm.png')"
+      "background-image": "farm.png"
     },
     "type": "background"
   }, {
@@ -41,7 +41,7 @@
     "source-layer": "landcover",
     "filter": { "class": "grass" },
     "style": {
-      "background-image": "url('grass.png')"
+      "background-image": "grass.png"
     },
     "type": "background"
   }, {
@@ -50,7 +50,7 @@
     "source-layer": "landcover",
     "filter": { "class": "wood" },
     "style": {
-      "background-image": "url('wood.png')"
+      "background-image": "wood.png"
     },
     "type": "background"
   }, {
@@ -59,7 +59,7 @@
     "source-layer": "landuse",
     "filter": { "class": "wood" },
     "style": {
-      "background-image": "url('wood.png')"
+      "background-image": "wood.png"
     },
     "type": "background"
   }, {
@@ -67,7 +67,7 @@
     "source": "mapbox",
     "source-layer": "water",
     "style": {
-      "background-image": "url('water.png')",
+      "background-image": "water.png",
       "fill-outline-color": "#a2bdc0"
     },
     "type": "background"
