@@ -2,8 +2,8 @@ $(document).ready(function(){
 mapboxgl.accessToken = "pk.eyJ1IjoibWFwbWVsZCIsImEiOiI0a1NzYW53In0.2gQTd6k9Ghw8UBK4DsciLA";
 var map = new mapboxgl.Map({
     container: 'map',
-    center: [42, -75],
-    zoom: 15,
+    center: [42.945, -71.938],
+    zoom: 6,
     style: {
   "version": 4,
   "sprite": "texture-sprite",
