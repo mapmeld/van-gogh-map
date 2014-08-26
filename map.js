@@ -193,13 +193,6 @@ var map = new mapboxgl.Map({
     hash: true
 });
 
-var source = new mapboxgl.Source({
-  type: "vector",
-  url: "mapbox://mapbox.mapbox-streets-v5",
-  tileSize: 512
-});
-map.addSource('osm', source);
-
 $("select").on("change", function(e){
   var layer = $(e.target).attr("id");
   map.setStyle({});
