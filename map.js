@@ -1,5 +1,5 @@
 $(document).ready(function(){
-mapboxgl.accessToken = "pk.eyJ1IjoibWFwbWVsZCIsImEiOiI0a1NzYW53In0.2gQTd6k9Ghw8UBK4DsciLA";
+mapboxgl.accessToken = "pk" + ".eyJ1IjoibWFwbWVsZGVyIiwiYSI6ImNseWl5a3h3ajBsZzAycXEwNjF3NGxuczgifQ.uf4CPno2XmVzMJ2rHNZjqw";
 var map = new mapboxgl.Map({
     container: 'map',
     center: [42.786, -73.26],
